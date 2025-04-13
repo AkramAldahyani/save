@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About Us | S.A.V.E.</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <img src="assets/logo.svg" alt="Logo" class="logo">
+    <nav>
+      <a href="index.html" >Home</a>
+      <a href="challenges.html">Challenges</a>
+      <a href="marketplace.html">Marketplace</a>
+      <a href="art.html">Art Gallery</a>
+      <a href="recycle.html">ReCycle</a>
+      <a href="faq.html">FAQ</a>
+      <a href="about.html" class="active">About Us</a>
+      <a href="cart.html" class="nav-cart">🛒<span id="cart-count">0</span></a>
+      <span class="nav-points">Points: <span id="user-points">0</span></span>
+      <a href="signup.html" class="nav-signup">Sign Up</a>
+      <a href="login.html" class="nav-login">Login</a>
+      <a href="#" class="nav-logout">Logout</a>
+    </nav>
+  </header>
+  <div class="page-header">About Us</div>
+  <main class="container wide">
+    <p class="intro">
+      S.A.V.E. (Smart Analytics & Virtual Engagement) is a cutting‑edge platform dedicated to SDG 12.
+    </p>
+    <h2>Our Story</h2>
+    <p>Founded at XYZ University by five sustainability enthusiasts, S.A.V.E. was created to make recycling engaging, measurable, and rewarding. Traditional approaches lacked feedback and motivation—so we combined AI, IoT, and gamification into one web app that guides, tracks, and celebrates every eco‑action.</p>
+    <h2>Our Mission</h2>
+    <p>Empower individuals and communities in Bahrain—and beyond—to understand their waste footprint, join collaborative challenges, and participate in a circular marketplace, turning eco‑friendly choices into everyday habits.</p>
+    <h2>What We Do</h2>
+    <ul>
+      <li><strong>AI Sorting Advisor:</strong> Ensures zero‑contamination recycling.</li>
+      <li><strong>Smart Bin Tracker:</strong> Optimizes pickups and cuts emissions.</li>
+      <li><strong>Gamified Challenges:</strong> Earn points, badges, vouchers.</li>
+      <li><strong>Marketplace & Art Gallery:</strong> Trade materials and showcase creativity.</li>
+      <li><strong>Impact Reporting:</strong> Shareable Eco‑Reports.</li>
+    </ul>
+    <h2>Meet the Team</h2>
+    <p><strong>Reema, Nawraa, Tasneem, Akram, Yusuf</strong>—innovators in environmental science, software engineering, and community outreach.</p>
+    <h2>Our Vision</h2>
+    <p>Expanding S.A.V.E. with AR‑guided sorting, carbon‑credit integration, and partnerships to scale impact globally. Join us!</p>
+  </main>
+  <footer class="footer">© <span id="year"></span> S.A.V.E.</footer>
+  <script src="js/nav.js"></script>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
